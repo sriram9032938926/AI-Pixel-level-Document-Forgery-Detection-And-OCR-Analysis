@@ -61,20 +61,20 @@ Unlike traditional systems, this project:
 - **UI:** Streamlit  
 
 ---
+```markdown
 ## 📊 Sample Output
 
-<img width="400" height="400" alt="Screenshot 2026-04-13 113232" src="https://github.com/user-attachments/assets/7a5e8943-dd9e-44a1-b8e8-c4ef852c890a" />
+### 🔹 Output Dashboard
+<img src="https://github.com/user-attachments/assets/7a5e8943-dd9e-44a1-b8e8-c4ef852c890a" width="400"/>
 
-
-
-<img width="400" height="400" alt="Screenshot 2026-04-13 113304" src="https://github.com/user-attachments/assets/397e7836-de91-476f-9222-acec493bf12a" />
-
+### 🔹 Heatmap / Mask Visualization
+<img src="https://github.com/user-attachments/assets/397e7836-de91-476f-9222-acec493bf12a" width="400"/>
 ---
 ## ▶️ Run the Project
 
 ```bash
-git clone https://github.com/your-username/repo-name.git
-cd repo-name
+git clone https://github.com/sriram9032938926/AI-Pixel-level-Document-Forgery-Detection-And-OCR-Analysis.git
+cd AI-Pixel-level-Document-Forgery-Detection-And-OCR-Analysis
 pip install -r requirements.txt
 streamlit run app.py
 ---
