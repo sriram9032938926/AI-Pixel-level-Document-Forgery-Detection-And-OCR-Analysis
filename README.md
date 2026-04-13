@@ -1,5 +1,7 @@
 # AI-Pixel-level-Document-Forgery-Detection-And-OCR-Analysis
 
+> 🚀 Multi-modal AI system for pixel-level forgery detection and OCR-based fraud analysis
+
 An end-to-end AI system that performs **pixel-level forgery detection**, **document classification**, and **text-level fraud analysis** on document images and PDFs.
 
 This project combines **Computer Vision + Deep Learning + OCR + Rule-Based Reasoning** to build a real-world **document verification pipeline** used in domains like KYC, banking, and government validation systems.
@@ -25,33 +27,42 @@ Unlike traditional systems, this project:
 - **Certificate Verification** 🎓  
 - **Insurance Fraud Detection** 🧾  
 - **Digital Onboarding Systems** 📑  
+
 ---
+
 ## 🏗️ AI System Architecture
 
 <img width="700" height="800" alt="AI document forgery detection workflow" src="https://github.com/user-attachments/assets/78183dc1-a2d1-4b71-9275-02e4d62e2e80" />
 
 ---
+
 ## ⚙️ How It Works
 
-1. Upload document (Image or PDF)
-2. Convert PDF → images
-3. Classify document (Real-like / Fake-like)
-4. Detect tampered regions (pixel-level)
-5. Extract text using OCR
-6. Extract structured fields
-7. Apply fraud detection rules
-8. Generate final fraud score and explanation
+1. Upload document (Image or PDF)  
+2. Convert PDF → images  
+3. Classify document (Real-like / Fake-like)  
+4. Detect tampered regions (pixel-level)  
+5. Extract text using OCR  
+6. Extract structured fields  
+7. Apply fraud detection rules  
+8. Generate final fraud score and explanation  
+
 ---
+
 ## 🚀 Key Features
-- Real-time document analysis ⚡
-- Parallel AI module execution 🧩
-- Pixel-level forgery detection 🔍
-- Reduced false positives via multi-modal fusion 🎯
-- Explainable outputs (heatmaps, masks, scores) 📊
-- Multi-page PDF support 📄
-- Modular architecture 🛠️
-----
+
+- Real-time document analysis ⚡  
+- Parallel AI module execution 🧩  
+- Pixel-level forgery detection 🔍  
+- Reduced false positives via multi-modal fusion 🎯  
+- Explainable outputs (heatmaps, masks, scores) 📊  
+- Multi-page PDF support 📄  
+- Modular architecture 🛠️  
+
+---
+
 ## 🧰 Tech Stack
+
 - **Programming Language:** Python  
 - **Computer Vision:** OpenCV  
 - **Deep Learning:** PyTorch  
@@ -61,15 +72,16 @@ Unlike traditional systems, this project:
 - **UI:** Streamlit  
 
 ---
-```markdown
+
 ## 📊 Sample Output
 
-### 🔹 Output Dashboard
+### 🔹 Output Dashboard and Heatmap / Mask Visualization
 <img src="https://github.com/user-attachments/assets/7a5e8943-dd9e-44a1-b8e8-c4ef852c890a" width="400"/>
 
-### 🔹 Heatmap / Mask Visualization
 <img src="https://github.com/user-attachments/assets/397e7836-de91-476f-9222-acec493bf12a" width="400"/>
+
 ---
+
 ## ▶️ Run the Project
 
 ```bash
@@ -77,4 +89,3 @@ git clone https://github.com/sriram9032938926/AI-Pixel-level-Document-Forgery-De
 cd AI-Pixel-level-Document-Forgery-Detection-And-OCR-Analysis
 pip install -r requirements.txt
 streamlit run app.py
----
